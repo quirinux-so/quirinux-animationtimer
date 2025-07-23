@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Animation Timer
+Comment=Timer for animators
+Comment[es]=Cronómetro para animación
+Comment[de]=Zeitschaltuhr für Animation
+Comment[fr]=Minuteur pour animation
+Comment[gl]=Temporizador para animación
+Comment[it]=Timer per animazione
+Comment[pt]=Temporizador para animação
+
+
+Exec=atimer
+Icon=/usr/share/icons/animation-timer.png
+Terminal=false
+Type=Application
+Categories=Animacion;

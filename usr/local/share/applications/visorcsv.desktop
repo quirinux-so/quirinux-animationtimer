@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=CSV Viewer
+Name[es]=Visor de CSV
+Name[de]=CSV-Viewer
+Name[fr]=Visionneuse de CSV
+Name[gl]=Visor de CSV
+Name[it]=Visualizzatore CSV
+Name[pt]=Visualizador de CSV
+
+Comment=To open Animation Timer measurements
+Comment[es]=Para abrir mediciones de Animation Timer
+Comment[de]=Zum Öffnen von Animation Timer Messungen
+Comment[fr]=Pour ouvrir des mesures d'Animation Timer
+Comment[gl]=Para abrir medicións de Animation Timer
+Comment[it]=Per aprire le misurazioni di Animation Timer
+Comment[pt]=Para abrir medições de Animation Timer
+
+Exec=visorcsv
+Icon=/usr/share/icons/visorcsv.png
+Terminal=false
+Type=Application
+Categories=Utility;
+MimeType=text/csv;

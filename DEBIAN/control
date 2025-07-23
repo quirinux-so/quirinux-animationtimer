@@ -1,0 +1,13 @@
+Package: animationtimer
+Version: 1.0.9
+Maintainer: Charlie Martinez <cmartinez@quirinux.org>
+Section: system
+Homepage: https://www.quirinux.org
+Architecture: all
+Priority: optional
+Installed-Size: 208077
+Description: Animation Timer
+ Crónometro para animación y visor de CSV.
+
+
+
