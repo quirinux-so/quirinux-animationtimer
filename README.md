@@ -59,6 +59,7 @@ También disponible desde el **Centro de Software de Quirinux**.
 
 ### ⚠️ Aviso legal  
 Este proyecto forma parte del ecosistema **Quirinux**, pero es compatible con cualquier distribución moderna de GNU/Linux.  
+
 Publicado bajo licencia **GPLv2**.  
 
 Autor: Charlie Martinez <cmartinez@quirinux.org>
@@ -119,6 +120,7 @@ Also available from the **Quirinux Software Center**.
 
 ### ⚠️ Legal notice  
 This project is part of the **Quirinux** ecosystem but compatible with any modern GNU/Linux distribution.  
+
 Released under the **GPLv2 license**.  
 
 Author: Charlie Martinez <cmartinez@quirinux.org>
