@@ -27,7 +27,8 @@ Además incluye un **visor de CSV** independiente para abrir o imprimir medicion
 🔧 Requisitos:
 
 ```bash
-sudo apt install python3-tk
+su root
+apt install python3-tk
 ```
 
 ▶️ Ejecutar la aplicación principal:
@@ -85,7 +86,8 @@ It also includes a standalone **CSV viewer** to open or print exported measureme
 🔧 Requirements:
 
 ```bash
-sudo apt install python3-tk
+su root
+apt install python3-tk
 ```
 
 ▶️ Run the main application:
