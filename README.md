@@ -44,8 +44,9 @@ python3 animationtimer.py
 python3 visorcsv.py
 ```
 
-🔄 El botón de idioma cambia la interfaz de forma cíclica entre los idiomas disponibles.  
-🖨️ El visor incluye opción de impresión directa mediante `lpr`.  
+Releases:
+
+https://repo.quirinux.org/pool/main/a/animationtimer/
 
 📦 Instalación en Quirinux (opcional):
 
@@ -104,16 +105,9 @@ python3 animationtimer.py
 ```bash
 python3 visorcsv.py
 ```
+Releases:
 
-🔄 The language button cycles through available languages.  
-🖨️ Viewer includes direct print option using `lpr`.  
-
-📦 Install on Quirinux (optional):
-
-```bash
-su root
-apt install quirinux-animationtimer
-```
+https://repo.quirinux.org/pool/main/a/animationtimer/
 
 Also available from the **Quirinux Software Center**.  
 🔗 https://repo.quirinux.org/pool/main/q/quirinux-animationtimer
