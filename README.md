@@ -44,10 +44,6 @@ python3 animationtimer.py
 python3 visorcsv.py
 ```
 
-Releases:
-
-https://repo.quirinux.org/pool/main/a/animationtimer/
-
 📦 Instalación en Quirinux (opcional):
 
 ```bash
@@ -105,9 +101,6 @@ python3 animationtimer.py
 ```bash
 python3 visorcsv.py
 ```
-Releases:
-
-https://repo.quirinux.org/pool/main/a/animationtimer/
 
 Also available from the **Quirinux Software Center**.  
 🔗 https://repo.quirinux.org/pool/main/q/quirinux-animationtimer
