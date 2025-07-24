@@ -1,11 +1,10 @@
 
-<img width="64" height="64" alt="animation-timer" src="https://github.com/user-attachments/assets/0a2913f9-fa36-4bcc-85ca-91234bf96860" />
-
-# Animation Timer
+ # <img width="32" alt="animation-timer" src="https://github.com/user-attachments/assets/0a2913f9-fa36-4bcc-85ca-91234bf96860" /> Animation Timer
 
 (c) Charlie Martínez – Quirinux GNU/Linux, GPLv2  
 
-![animationtimer](https://github.com/user-attachments/assets/57fb3431-93c4-44fa-b0dd-9d493c4389c7)
+<img width="549" height="347" alt="imagen" src="https://github.com/user-attachments/assets/0de05420-1c91-4d41-93bf-193ce2ba0987" />
+
 
 
 ## 🇪🇸 Español  
