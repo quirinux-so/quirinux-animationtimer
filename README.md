@@ -1,117 +1,118 @@
+# Animation Timer <img width="32" alt="animation-timer" src="https://github.com/user-attachments/assets/0a2913f9-fa36-4bcc-85ca-91234bf96860" />
 
- # <img width="32" alt="animation-timer" src="https://github.com/user-attachments/assets/0a2913f9-fa36-4bcc-85ca-91234bf96860" /> Animation Timer
+**Autor / Author:** Charlie Martínez – Quirinux GNU/Linux®  
+**Licencia / License:** GPLv2.0
 
-(c) Charlie Martínez – Quirinux GNU/Linux, GPLv2  
-
-<img width="549" height="347" alt="imagen" src="https://github.com/user-attachments/assets/0de05420-1c91-4d41-93bf-193ce2ba0987" />
-
-
-
-## 🇪🇸 Español  
-**Animation Timer** es una aplicación gráfica, multilingüe y offline para registrar tiempos y fotogramas en animaciones manuales o tradicionales, especialmente útil para docentes o animadores.  
-
-Además incluye un **visor de CSV** independiente para abrir o imprimir mediciones exportadas.  
-
-✅ Características:
-
-- Medición automática de tiempo y fotogramas  
-- Selector de FPS: 4, 8, 12, 24  
-- Tabla con resumen por medición, con acumulado total  
-- Exportación directa a CSV en el escritorio  
-- Visor independiente de CSV con opción de impresión  
-- Interfaz en múltiples idiomas: Español, Inglés, Alemán, Francés, Italiano, Portugués y Gallego  
-- Sin conexión a Internet (no requiere pip)  
-- Ideal para sistemas basados en Debian y para su uso en educación  
-
-🔧 Requisitos:
-
-```bash
-su root
-apt install python3-tk
-```
-
-▶️ Ejecutar la aplicación principal:
-
-```bash
-git clone https://github.com/quirinux-so/animation-timer.git
-cd animation-timer
-python3 animationtimer.py
-```
-
-▶️ Ejecutar el visor de CSV (opcional):
-
-```bash
-python3 visorcsv.py
-```
-
-📦 Instalación en Quirinux (opcional):
-
-```bash
-su root
-apt install quirinux-animationtimer
-```
-
-También disponible desde el **Centro de Software de Quirinux**.  
-🔗 https://repo.quirinux.org/pool/main/q/quirinux-animationtimer
-
-### ⚠️ Aviso legal  
-Este proyecto forma parte del ecosistema **Quirinux**, pero es compatible con cualquier distribución moderna de GNU/Linux.  
-
-Publicado bajo licencia **GPLv2**.  
-
-Autor: Charlie Martinez <cmartinez@quirinux.org>
-
-ℹ️ Más información:  
-🔗 [https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
+![Animation Timer Screenshot](https://github.com/user-attachments/assets/0de05420-1c91-4d41-93bf-193ce2ba0987)
 
 ---
 
-## 🇬🇧 English  
-**Animation Timer** is a graphical, multilingual, and offline app to register time and frames for manual or traditional animation workflows — ideal for educators or animators.  
+## 🧭 Descripción general / Overview
 
-It also includes a standalone **CSV viewer** to open or print exported measurements.  
+**ES:**  
+`Animation Timer` es una aplicación gráfica, multilingüe y sin conexión, diseñada para registrar tiempos y fotogramas en procesos de animación manual o tradicional. Es especialmente útil en entornos educativos o para animadores profesionales.
 
-✅ Features:
+Además, incluye un visor de archivos CSV independiente para consultar o imprimir las mediciones exportadas. 
 
-- Automatic time and frame recording  
+**EN:**  
+`Animation Timer` is a graphical, multilingual, and offline application designed to log time and frames for manual or traditional animation workflows. It is especially useful for educators and professional animators.
+
+Additionally, it includes a standalone CSV viewer for reading or printing exported measurements.
+
+---
+
+## ✔️ Características / Features
+
+**ES:**
+- Registro automático de tiempo y fotogramas  
+- Selector de FPS: 4, 8, 12, 24  
+- Tabla resumen por medición con totales acumulados  
+- Exportación directa al escritorio en formato CSV  
+- Visor independiente de CSV con opción de impresión  
+- Interfaz disponible en: Español, Inglés, Alemán, Francés, Italiano, Portugués y Gallego  
+- Uso completamente offline (no requiere conexión ni dependencias externas)  
+- Optimizado para sistemas basados en Debian
+
+**EN:**
+- Automatic time and frame logging  
 - FPS selector: 4, 8, 12, 24  
-- Summary table per measurement with cumulative totals  
-- Direct export to desktop in CSV format  
-- Standalone CSV viewer with print option  
-- Multilingual interface: Spanish, English, German, French, Italian, Portuguese, Galician  
-- Offline-friendly (no pip required)  
-- Designed for Debian-based systems  
+- Summary table per session with cumulative totals  
+- Direct export to the desktop in CSV format  
+- Standalone CSV viewer with print capability  
+- Interface available in: Spanish, English, German, French, Italian, Portuguese, and Galician  
+- Fully offline operation (no internet or pip required)  
+- Designed for Debian-based systems
 
-🔧 Requirements:
+---
 
-```bash
-su root
-apt install python3-tk
-```
+## 📋 Requisitos / Requirements
 
-▶️ Run the main application:
+**ES**  
+Instalar la siguiente dependencia antes de ejecutar:  
 
-```bash
-git clone https://github.com/quirinux-so/animation-timer.git
-cd animation-timer
-python3 animationtimer.py
-```
+**EN:**  
+Install the following dependency before running:
 
-▶️ Run the optional CSV viewer:
 
-```bash
-python3 visorcsv.py
-```
+    su root
+    apt install python3-tk
 
-Also available from the **Quirinux Software Center**.  
-🔗 https://repo.quirinux.org/pool/main/q/quirinux-animationtimer
+---
 
-### ⚠️ Legal notice  
-This project is part of the **Quirinux** ecosystem but compatible with any modern GNU/Linux distribution.  
+## ▶️ Ejecución / How to Run
 
-Released under the **GPLv2 license**.  
+**ES:**  
+Aplicación principal:  
 
-Author: Charlie Martinez <cmartinez@quirinux.org>
+**EN:**  
+Main application:
 
-ℹ️ More info:  
-🔗 [https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
+    git clone https://github.com/quirinux-so/quirinux-animationtimer.git
+    cd quirinux-animationtimer/usr/local/bin
+    python3 animation-timer.py
+
+**ES:**  
+Visor de CSV (opcional):  
+
+**EN:**  
+CSV viewer (optional):
+
+    python3 csv-viewer.py
+
+---
+
+## 📦 Instalación alternativa / Optional Installation (Quirinux)
+
+**ES:**  
+Disponible como paquete oficial `.deb` desde el repositorio de Quirinux o desde el Centro de Software.
+
+**EN:**  
+Available as an official `.deb` package via the Quirinux repository or Software Center.
+
+**Comando / Command:**
+
+(sangría para simular bloque de código)
+
+    su root
+    apt install quirinux-animationtimer
+
+**Repositorio / Repository:**  
+[https://repo.quirinux.org/pool/main/q/quirinux-animationtimer](https://repo.quirinux.org/pool/main/q/quirinux-animationtimer)
+
+---
+
+## ⚖️ Aviso legal / Legal Notice
+
+**ES:**  
+Este proyecto forma parte del ecosistema **Quirinux**, pero es compatible con cualquier distribución moderna de GNU/Linux.  
+Distribuido bajo los términos de la licencia **GPLv2**.
+
+**EN:**  
+This project is part of the **Quirinux** ecosystem but remains compatible with any modern GNU/Linux distribution.  
+Released under the terms of the **GPLv2 license**.
+
+**Autor / Author:** Charlie Martínez  
+📧 <cmartinez@quirinux.org>
+
+**Más información / More information:**  
+[https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
