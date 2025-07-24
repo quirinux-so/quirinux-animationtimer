@@ -1,4 +1,4 @@
-# Animation Timer <img width="32" alt="animation-timer" src="https://github.com/user-attachments/assets/0a2913f9-fa36-4bcc-85ca-91234bf96860" />
+# Animation Timer
 
 **Autor / Author:** Charlie Martínez – Quirinux GNU/Linux®  
 **Licencia / License:** GPLv2.0
